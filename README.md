@@ -1,4 +1,5 @@
 # say-tahmini-java-
+
 .public int nextInt(int i) {
 
         class sayi_tahmin {
