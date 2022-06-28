@@ -8,9 +8,13 @@
                 Random rnd = new Random();
                 System.out.println("Sayı tahmin oyununa hoş geldiniz!");
                 System.out.println("Lütfen 1-100 arasında bir sayı giriniz: ");
-// Kullanıcı sayı girişi yapıyor.
-                int tahmin = input.nextInt();
-// Bilgisayardan rastgele sayı girişi yapıyor
+                
+// Kullanıcı sayı girişi yapıyor.\\
+               
+               int tahmin = input.nextInt();
+               
+// Bilgisayardan rastgele sayı girişi yapıyor\\
+
                 int sayi = rnd.nextInt(101);
                 while (tahmin != sayi) {
                     if (tahmin < 0 || tahmin > 100) {
